@@ -336,7 +336,17 @@ span{
     -ms-overflow-style: none;
     /* hide scroll bars for firefox */
     scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    row-gap: 0.5rem;
 }
+
+.portfolio .portfolio-container .portfolio-box .portfolio-layer p span{ 
+    text-align: left;
+    padding: 0rem 0.5rem;
+}
+
 .portfolio .portfolio-container .portfolio-box .portfolio-layer p::-webkit-scrollbar{
     display: none;
 }
