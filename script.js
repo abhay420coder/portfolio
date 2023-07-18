@@ -85,7 +85,7 @@ ScrollReveal().reveal('.home-content p , .about-content' , {origin : 'right'});
 
 /*====================================== typed JS   :- external javascript library ======================================*/
 const typed = new Typed('.multiple-text' , {
-    strings:['Frontend Developer' , 'Digital Marketing' , 'Web Designer' , 'Blogger'],
+    strings:['Frontend Developer' , 'Digital Marketing Expert' , 'Web Designer' , 'Blogger'],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
